@@ -1,8 +1,5 @@
-let numero;
 do{
-    let numero = prompt('Ingresar un numero.');
-    alert('Se ingresó el numero ' + numero);
-    numero = prompt ('Ingresar otro numero. Para finalizar, ingrese cualquier texto.');
-} while (parseInt(numero))
-
-
+    number = prompt('Ingresar un numero.');
+    if(!isNaN(number)){ 
+    alert('Se ingresó ' + number)}
+} while (parseInt(number));
