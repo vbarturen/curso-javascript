@@ -1,4 +1,3 @@
-let letters = /^[A-Za-z]+$/;
 let dato = prompt('Ingresar dato');
 
 while (dato != 'ESC' && dato != 'esc' && dato !=='' && dato !==null ){
