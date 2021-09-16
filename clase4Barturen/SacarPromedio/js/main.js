@@ -1,6 +1,6 @@
-//Estas son las dos funciones flecha que usamos para calcular el promedio y mostrarlo//
+//Estas son las dos funciones flecha que usamos para dividir y para mostrar mensajes.//
 
-const sacarPromedio = (a,b) => a/b
+const dividir = (a,b) => a/b
 
 const mostrar = (mensaje) => alert(mensaje)
 
@@ -31,9 +31,9 @@ for (i = 1; i <= totalEvaluaciones;i++){
         }
     }
 
-    
-// Aquí se ejecutan las funciones de calcular el promedio y mostrarlo//
 
-sacarPromedio(totalNotas,totalEvaluaciones);
+// Aquí se ejecutan las funciones que van a calcular el promedio y mostrarlo//
 
-mostrar('El promedio es: ' + sacarPromedio(totalNotas,totalEvaluaciones + '.'));
+dividir(totalNotas,totalEvaluaciones);
+
+mostrar('El promedio es: ' + dividir(totalNotas,totalEvaluaciones ) + '.');
