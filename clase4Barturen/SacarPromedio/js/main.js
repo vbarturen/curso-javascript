@@ -31,6 +31,7 @@ for (i = 1; i <= totalEvaluaciones;i++){
         }
     }
 
+    
 // Aquí se ejecutan las funciones de calcular el promedio y mostrarlo//
 
 sacarPromedio(totalNotas,totalEvaluaciones);
