@@ -25,4 +25,4 @@ let pagoAhora12 = suma (suma (precioDeLista, iva(precioDeLista)), ahora12(precio
 let pagoAhora18 = suma(suma(precioDeLista, iva(precioDeLista)), ahora18(precioDeLista)); 
 
 
-alert ('Si abona en efectivo, pagará un total de ' + '$' + pagoEfectivo + '.'+ '\n' + 'Si abona con Mercado Pago QR, pagará un total de ' + '$' + pagoMercadoPagoQR + '.'+ "\n" + 'Si abona con Mercado Pago, pagará un total de ' + '$' + pagoMercadoPagoTarjetas + '.'+ "\n" + 'Si abona con financiación "Ahora 12", pagará un total de ' + '$' + pagoAhora12 + '.'+ "\n" + 'Si abona con financiación "Ahora 12", pagará un total de ' + '$' + pagoAhora18 + '.')
+alert ('Si abona en efectivo, pagará un total de ' + '$' + pagoEfectivo + '.'+ '\n' + 'Si abona con Mercado Pago QR, pagará un total de ' + '$' + pagoMercadoPagoQR + '.'+ "\n" + 'Si abona con Mercado Pago, pagará un total de ' + '$' + pagoMercadoPagoTarjetas + '.'+ "\n" + 'Si abona con financiación "Ahora 12", pagará un total de ' + '$' + pagoAhora12 + '.'+ "\n" + 'Si abona con financiación "Ahora 18", pagará un total de ' + '$' + pagoAhora18 + '.')
